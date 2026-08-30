@@ -4,13 +4,12 @@
   "private": true,
   "scripts": {
     "dev": "next dev --webpack",
-    "build": "next build",
+    "build": "next build --webpack",
     "start": "next start",
     "lint": "eslint"
   },
   "dependencies": {
     "@hookform/resolvers": "^5.4.0",
-    "@next/swc-win32-x64-msvc": "^16.2.9",
     "@reduxjs/toolkit": "^2.12.0",
     "@tanstack/react-query": "^5.101.2",
     "axios": "^1.18.1",
